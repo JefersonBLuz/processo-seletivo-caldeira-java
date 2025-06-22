@@ -8,5 +8,7 @@ public class Main {
         Atividades.Avaliacao.main(args);
         System.out.println("3º Questão, Item, resultado:");
         Atividades.Item.main(args);
+        System.out.println("4º Questão, Fluxo, resultado:");
+        Atividades.Fluxo.main(args);
     }
 }
