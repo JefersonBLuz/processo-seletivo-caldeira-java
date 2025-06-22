@@ -1,6 +1,7 @@
 import Atividades.*;
 
 import java.time.LocalDate;
+import java.time.DayOfWeek;
 
 public class Main {
     public static void main(String[] args) {
@@ -54,6 +55,19 @@ public class Main {
                 LocalDate hoje = LocalDate.of(2025, 6, 9);
                 LocalDate prazo = hoje.plusDays(10);
                 System.out.println(prazo);
+                break;
+            case 10:
+                LocalDate data = LocalDate.of(2025, 6, 10);
+                int diasUteis = 0;
+                while (diasUteis < 7) {
+                    data = data.plusDays(1);
+                    boolean fimDeSemana = data.getDayOfWeek() == DayOfWeek.SATURDAY || data.getDayOfWeek() == DayOfWeek.SUNDAY;
+                    boolean feriado = data.equals(LocalDate.of(2025, 6, 15));
+                    if (!fimDeSemana && !feriado) {
+                        diasUteis++;
+                    }
+                }
+                System.out.println(data);
                 break;
             case 0:
                 System.out.println("Saindo do menu...");
