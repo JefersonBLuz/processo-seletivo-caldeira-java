@@ -12,5 +12,7 @@ public class Main {
         Atividades.Fluxo.main(args);
         System.out.println("5º Questão, Notificação, resultado:");
         Atividades.Notificacao.main(args);
+        System.out.println("6º Questão, Array, resultado:");
+        Atividades.Array.main(args);
     }
 }
