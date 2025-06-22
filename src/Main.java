@@ -20,5 +20,8 @@ public class Main {
         System.out.println(l.status());
         l.emprestar();
         System.out.println(l.status());
+        System.out.println("8º Questão, Usuario, resultado:");
+        Usuario u = new Usuario("João", 25);
+        System.out.println(u);
     }
 }
