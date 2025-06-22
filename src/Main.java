@@ -81,6 +81,10 @@ public class Main {
                     System.out.println("12º Questão, Ordenação de tarefas, resultado:");
                     Atividades.Tarefa.main(args);
                     break;
+                case 13:
+                    System.out.println("13º Questão, Filtro de tarefas, resultado:");
+                    Atividades.Filtro.main(args);
+                    break;
                 case 0:
                     System.out.println("Saindo do menu...");
                     break;
