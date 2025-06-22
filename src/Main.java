@@ -1,16 +1,11 @@
 import Atividades.*;
 
-import java.time.LocalDate;
-import java.time.DayOfWeek;
-import java.time.LocalTime;
+import java.time.*;
 
 
 public class Main {
     public static void main(String[] args) {
-
         int expression;
-
-
         do {
             System.out.println("Digite o número da questão que deseja executar ou 0 para sair:");
             expression = Integer.parseInt(System.console().readLine());
