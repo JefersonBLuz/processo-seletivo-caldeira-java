@@ -6,5 +6,7 @@ public class Main {
         Atividades.Agendamento.main(args);
         System.out.println("2º Questão, Avaliação, resultado:");
         Atividades.Avaliacao.main(args);
+        System.out.println("3º Questão, Item, resultado:");
+        Atividades.Item.main(args);
     }
 }
