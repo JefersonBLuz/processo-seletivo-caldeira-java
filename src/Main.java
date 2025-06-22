@@ -14,5 +14,11 @@ public class Main {
         Atividades.Notificacao.main(args);
         System.out.println("6º Questão, Array, resultado:");
         Atividades.Array.main(args);
+        System.out.println("7º Questão, Livro, resultado:");
+        Livro l = new Livro();
+        l.titulo = "Java para Iniciantes";
+        System.out.println(l.status());
+        l.emprestar();
+        System.out.println(l.status());
     }
 }
